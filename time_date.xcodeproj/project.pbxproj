@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4285E8491BA83F51003BCD07 /* NSDate+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 4285E8481BA83F51003BCD07 /* NSDate+Help.m */; };
 		42E0BB071BA6CD7F001E48BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0BB061BA6CD7F001E48BE /* main.m */; };
 		42E0BB0A1BA6CD7F001E48BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0BB091BA6CD7F001E48BE /* AppDelegate.m */; };
 		42E0BB0D1BA6CD7F001E48BE /* time_date.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E0BB0B1BA6CD7F001E48BE /* time_date.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		42E0BB151BA6CD7F001E48BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E0BB141BA6CD7F001E48BE /* Images.xcassets */; };
 		42E0BB181BA6CD7F001E48BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E0BB161BA6CD7F001E48BE /* LaunchScreen.xib */; };
 		42E0BB241BA6CD80001E48BE /* time_dateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0BB231BA6CD80001E48BE /* time_dateTests.m */; };
+		42E0BB321BA6CFF2001E48BE /* CountdownSeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0BB311BA6CFF2001E48BE /* CountdownSeting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4285E8471BA83F51003BCD07 /* NSDate+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Help.h"; path = "time_date/NSDate+Help.h"; sourceTree = "<group>"; };
+		4285E8481BA83F51003BCD07 /* NSDate+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Help.m"; path = "time_date/NSDate+Help.m"; sourceTree = "<group>"; };
 		42E0BB011BA6CD7F001E48BE /* time_date.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = time_date.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E0BB051BA6CD7F001E48BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E0BB061BA6CD7F001E48BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		42E0BB1D1BA6CD7F001E48BE /* time_dateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = time_dateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E0BB221BA6CD80001E48BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E0BB231BA6CD80001E48BE /* time_dateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = time_dateTests.m; sourceTree = "<group>"; };
+		42E0BB301BA6CFF2001E48BE /* CountdownSeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownSeting.h; sourceTree = "<group>"; };
+		42E0BB311BA6CFF2001E48BE /* CountdownSeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownSeting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 		42E0BAF81BA6CD7F001E48BE = {
 			isa = PBXGroup;
 			children = (
+				4285E8471BA83F51003BCD07 /* NSDate+Help.h */,
+				4285E8481BA83F51003BCD07 /* NSDate+Help.m */,
 				42E0BB031BA6CD7F001E48BE /* time_date */,
 				42E0BB201BA6CD7F001E48BE /* time_dateTests */,
 				42E0BB021BA6CD7F001E48BE /* Products */,
@@ -92,6 +100,8 @@
 				42E0BB161BA6CD7F001E48BE /* LaunchScreen.xib */,
 				42E0BB0B1BA6CD7F001E48BE /* time_date.xcdatamodeld */,
 				42E0BB041BA6CD7F001E48BE /* Supporting Files */,
+				42E0BB301BA6CFF2001E48BE /* CountdownSeting.h */,
+				42E0BB311BA6CFF2001E48BE /* CountdownSeting.m */,
 			);
 			path = time_date;
 			sourceTree = "<group>";
@@ -223,9 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E0BB0A1BA6CD7F001E48BE /* AppDelegate.m in Sources */,
+				42E0BB321BA6CFF2001E48BE /* CountdownSeting.m in Sources */,
 				42E0BB071BA6CD7F001E48BE /* main.m in Sources */,
 				42E0BB101BA6CD7F001E48BE /* ViewController.m in Sources */,
 				42E0BB0D1BA6CD7F001E48BE /* time_date.xcdatamodeld in Sources */,
+				4285E8491BA83F51003BCD07 /* NSDate+Help.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +432,7 @@
 				42E0BB291BA6CD80001E48BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42E0BB2A1BA6CD80001E48BE /* Build configuration list for PBXNativeTarget "time_dateTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +441,7 @@
 				42E0BB2C1BA6CD80001E48BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
